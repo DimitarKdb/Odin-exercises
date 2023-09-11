@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+div:first-child {
+  background-color: yellow;
+  padding: 50px;
+  margin: 30px;
+  border: 5px solid blue;
+  height: 150px;
+  width: 150px;
+}
+
+div:nth-child(2) {
+  background-color: red;
+  padding: 20px;
+  margin: 50px;
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+}
