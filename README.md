@@ -1,4 +1,4 @@
-# git_test
+# Odin-exercises
 
 My first Odin project!
 Hello Odin!
