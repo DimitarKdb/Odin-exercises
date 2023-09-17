@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-div:first-child {
+/* div:first-child {
   background-color: yellow;
   padding: 50px;
   margin: 30px;
@@ -22,4 +22,47 @@ div:nth-child(2) {
   border: 5px solid black;
   height: 100px;
   width: 100px;
+} */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: gray;
+  height: 200px;
+  margin: 50px;
+  display: flex;
+  padding: 50px;
+  gap: 15px;
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.el1 {
+  background-color: red;
+  height: 100%; 
+  flex-grow: 3;
+  flex-shrink: 0;
+  flex-basis: 150px;
+}
+
+.el2 {
+  height: 100%;
+  flex-grow: 2;
+  flex-shrink: 0;
+  background-color: aqua;
+  flex-basis: 10px;
+}
+
+.footer {
+  height: 200px;
+  background-color: red;
 }
